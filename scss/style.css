@@ -12363,10 +12363,13 @@ textarea.form-control-lg {
 
 .contact-box {
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .contact-box__icon {
   width: 2rem;
   stroke: #093145;
+  align-items: center;
   padding-top: 0.5rem;
 }
 @media (min-width: 576px) {
@@ -12376,6 +12379,7 @@ textarea.form-control-lg {
 }
 .contact-box__info {
   padding: 0.4rem;
+  align-items: center;
   font-weight: 600;
 }
 .contact-box__info--title {
