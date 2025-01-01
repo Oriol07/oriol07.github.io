@@ -1,0 +1,41 @@
+{
+    "games": "Juegos",
+    "pronunciation": "Pronunciación",
+    "words": "Palabras",
+    "donations": "Donaciones",
+
+    "lyricsPlaceHolder": "Escribe aquí...",
+    "game-page-title": "<b>Juegos para aprender català</b>",
+    "game-title-01": "🎸 <b>Catalán con ritmo</b> 🎸",
+    
+    "game-description-01": "¿Quieres aprender catalán de una forma divertida y original? Mejora tu nivel mientras exploras las letras de canciones catalanas populares. Aprende nuevas frases y sumérgete en la cultura catalana. ¡Es hora de darle ritmo al catalán!"
+    ,
+    
+    "OneMoreTime": "Una vez más",
+    "ReturnSongSelection": "Tornar al cançoner",
+    "OtherGames": "Més jocs",
+
+
+    "game-title-02-emoji": "😀 <b>Adivina l'emoji</b> 😀",
+    "game-description-02-emoji": "Aprende a relecionar los emojis con palabras catalanas. ¡Diviértete mientras expandes tu vocabulario! ¿Aceptas el desafío? ¡Juguemos! 🎮",
+    "learn-lyrics-title": "Entiende la letra👩‍🏫",
+
+    "game-title-03-trans":"<b>Traduciones Quiz🗣️💬🌍</b>"
+    ,
+    "game-description-03-trans": "¡Pon a prueba tus conocimientos de catalán en este divertido desafío! Elige la traducción correcta entre 4 opciones y demuestra tu habilidad con los idiomas. ¿Aceptas el reto?"
+    ,
+    "translate-loc-interj": "¡Explora el mundo de las interjecciones! Aprende a expresar emociones y reacciones con las palabras correctas en catalán.",
+    "translate-adjectives": "¡Domina el lenguaje descriptivo! Elige la traducción correcta de los adjetivos y enriquece tu vocabulario.",
+    "translate-informatica": "Pon a prueba tus conocimientos sobre términos informáticos.",
+    "translate-food": "Vocabulario de comida.",
+    "translate-fruits": "Desde manzanas hasta naranjas, pon a prueba tus conocimientos sobre los nombres de frutas en catalán.", 
+    "translate-audio": "Traduciones aleatorias con audio.",
+    "translate-videogames": "¿Eres gamer o trabajas en la industria de los videojuegos? Pon a prueba tus conocimientos sobre la terminología de los videojuegos.",
+    "translate-professions": "¿Cuál es tu trabajo soñado en catalán? Aprende los nombres de profesiones y trabajos en la lengua catalana.",
+    "translate-adverbis": "Aprende a expresar acciones con mayor precisión usando adverbios.",
+    "translate-educacio": "Pon a prueba tus conocimientos sobre términos educativos.",
+    "translate-colloquial": "¡Sumérgete en la riqueza del catalán cotidiano! Aprende expresiones coloquiales y cómo se comunican los hablantes nativos de forma informal.",
+    "translate-LGBTI": "Aprende términos importantes relacionados con la comunidad LGBTI+ en catalán y mejora tus habilidades lingüísticas inclusivas."
+
+    
+}

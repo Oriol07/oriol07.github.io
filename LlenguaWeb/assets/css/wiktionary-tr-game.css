@@ -1,0 +1,230 @@
+/* General container styling */
+.word-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f0f8ff, #add8e6);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Main quiz container styling */
+#word-quiz-container {
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    max-width: 500px;
+    width: 100%;
+}
+
+#word-quiz-container h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Display for the word question */
+#word-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+/* Button container styling */
+#word-answer-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-container {
+    flex: 1 1 45%; /* Adjusted for better fit on mobile */
+    max-width: 45%;
+    min-width: 120px; /* Ensure buttons don't get too small */
+}
+
+/* Button styling */
+.word-answer-button {
+    
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: #007acc;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.word-answer-button:hover {
+    background: #005f99;
+    transform: scale(1.05);
+}
+
+.word-answer-button:active {
+    background: #004d80;
+    transform: scale(1.02);
+}
+
+/* Feedback text styling */
+#word-feedback {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* End screen styling */
+#word-end-screen {
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    max-width: 500px;
+    width: 100%;
+}
+
+#word-end-screen h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+#word-final-score {
+    font-size: 1.2rem;
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+#play-again-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#play-again-button:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+#play-again-button:active {
+    background: #1e7e34;
+    transform: scale(1.02);
+}
+
+
+#game-log-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#game-log-container h3 {
+    text-align: center;
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#game-log {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+#game-log li {
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+}
+
+#game-log li span {
+    font-weight: bold;
+}
+
+.games-container-little {
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+/* Grid Configuration */
+@media (min-width: 768px) {
+    .games-container-little {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+    }
+}
+
+@media (min-width: 1024px) {
+    .games-container-little {
+        grid-template-columns: 1fr 1fr 1fr; /* Three columns for larger screens */
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .button-container {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .word-answer-button {
+        font-size: 1rem; /* Increase font size for readability */
+        padding: 15px; /* Add more padding for touch accessibility */
+    }
+}
+
+
+
+/* Audio button inside IPA container */
+#ipa-display .audio-button {
+    display: inline-block;
+    margin-left: 10px;
+    background: #007acc;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#ipa-display .audio-button:hover {
+    background: #005f99;
+    transform: scale(1.1);
+}
+
+#ipa-display .audio-button:active {
+    background: #004d80;
+    transform: scale(1.05);
+}

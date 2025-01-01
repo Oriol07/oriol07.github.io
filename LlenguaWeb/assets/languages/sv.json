@@ -1,0 +1,40 @@
+{
+    "games": "Spel",
+    "pronunciation": "Uttal",
+    "words": "Ord",
+    "donations": "Donationer",
+    "lyricsPlaceHolder": "Skriv här...",
+    "game-page-title": "<b>Spel för att lära sig katalanska</b>",
+    "game-title-01": "🎶<b>Sångskola katalanska med melodi</b>🎶",
+    "game-description-01": "Vill du lära dig katalanska genom musik? Upptäck <b>Sångskola katalanska med Melodi!</b> Här får du läsa och förstå texterna av populära katalanska låtar, medan du övar språket.",
+    
+    "OneMoreTime": "En gång till",
+    "ReturnSongSelection": "En annan låt",
+    "OtherGames": "Spela något annat",
+    
+
+    "game-title-02-emoji": "😀 <b>Emoji-Ordjakten</b> 😀",
+    "game-description-02-emoji": " Utforska emojis värld och lär dig nya ord på katalanska! Gissa vilket ord som passar bäst till varje emoji och bli mästare i ord och kultur. Kom och spela – vem vet, kanske hittar du en ny favoritemoji! 🌟"
+, 
+    "play-song-game": "Nu kör vi! <br> Spela låten",
+    "learn-lyrics-title": "Förstå texten👩‍🏫",
+
+    
+    "game-title-03-trans":"<b>Översättningsfrågesport🗣️💬🌍</b>",
+    "game-description-03-trans": "Utmana dig själv i detta roliga språktest! Välj rätt översättning till katalanska bland fyra alternativ och visa vad du går för. Är du redo att anta utmaningen?"
+    ,
+    "translate-loc-interj": "Lär dig uttrycka känslor och reaktioner med rätt ord på katalanska.",
+    "translate-adjectives": "Bli expert på beskrivande språk! Välj rätt översättning av adjektiv.",
+    "translate-informatica": "Dyk ner i den digitala världen! Testa dina kunskaper om datorterminer och deras översättningar på katalanska.",
+    "translate-food": "Översätt mat.",
+    "translate-fruits": "Från äpplen till apelsiner, testa dina kunskaper om fruktnamn på katalanska", 
+    "translate-audio": "Alla ord i det här avsnittet innehåller ljud.",
+    "translate-videogames": "Är du en gamer? Testa dina kunskaper om videospeltermer.",
+    "translate-professions": "Vad är ditt drömjobb på katalanska? Lär dig namnen på olika yrken och jobb på katalanska.",
+    "translate-adverbis": "Lär dig hur du uttrycker handlingar mer exakt med adverb!",
+    "translate-educacio": "Fokusera på lärandets värld! Testa dina kunskaper om utbildningstermer.",
+    "translate-colloquial": "Dyk ner i den rika vardagliga katalanskan! Lär dig vardagliga uttryck och hur inhemska talar informellt.",
+    "translate-LGBTI": "Lär dig viktiga termer relaterade till HBTQI gemenskapen på katalanska och förbättra dina inkluderande språkkunskaper."
+
+
+}

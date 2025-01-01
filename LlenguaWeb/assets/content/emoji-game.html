@@ -1,0 +1,36 @@
+<div class="emoji-page">
+
+  <div id="emoji-game-container">
+      <h2>Emoji Quiz</h2>
+      <div id="emoji-display" ></div>
+      <div id="emoji-answer-buttons">
+
+        <div class="w3-tag w3-round w3-indigo " style="padding:0.5px; margin:5px">
+          <button id="answer1" class="emoji-answer-button w3-tag w3-round w3-white w3-border w3-border-white"></button>
+          </div>
+          <div class="w3-tag w3-round w3-purple " style="padding:0.5px; margin:5px">
+              <button id="answer2" class="emoji-answer-button w3-tag w3-round w3-white w3-border w3-border-white"></button>
+              </div>
+              <div class="w3-tag w3-round w3-red " style="padding:0.5px; margin:5px">
+                  <button id="answer3" class="emoji-answer-button w3-tag w3-round w3-white w3-border w3-border-white"></button>
+                  </div>
+        <div class="w3-tag w3-round w3-pink " style="padding:0.5px; margin:5px">
+          <button id="answer4" class="emoji-answer-button w3-tag w3-round w3-white w3-border w3-border-white"></button>
+          </div>
+      </div>
+      <p id="emoji-feedback"></p>
+    </div>
+    
+    <div id="emoji-end-screen" style="display: none;">
+      <h2>Molt rebé!</h2>
+      <p id="emoji-final-score"></p>
+      
+      <a href="emoji-game.html" class="game-box-link menu-button">
+          <button class="btn" onclick="initializeGame()" data-key="OneMoreTime">Play Again</button>
+        </a>
+        
+        <a href="games.html" class="game-box-link menu-button">
+          <button class="btn" onclick="selectAnotherSong()" data-key="OtherGames">Other Games</button>
+        </a>
+    </div>
+</div>

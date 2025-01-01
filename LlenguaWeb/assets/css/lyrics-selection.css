@@ -1,0 +1,146 @@
+ .lyrics-page-bg
+ {
+  background-color: rgb(255, 245, 234);
+
+
+ }
+
+
+.lyrics-page {
+    background-color: rgb(253, 215, 170);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 5px;
+}
+ 
+ .vertical-menu-tags {
+    width: 200px; /* Set a width if you like */
+    float: left;
+  }
+  
+  
+  .vertical-menu-tags a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  .vertical-menu-tags div {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu-tags a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu-tags a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+  .tag-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap tags onto new lines if needed */
+    gap: 6px; /* Space between tags */
+    justify-content: center;
+    margin-top: auto; /* Pushes tags to the bottom of the .game-box */
+  }
+
+  .menu-button {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .action-lyrics-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+}
+
+.action-lyrics-buttons .button {
+  display: inline-block;
+  width: 150px; /* Fixed width for uniformity */
+  height: auto; /* Fixed height for uniformity */
+  line-height: 40px; /* Vertically center text */
+  text-align: center; /* Horizontally center text */
+  background-color: #0070ba;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.action-lyrics-buttons .button:hover {
+    background-color: #005a94;
+}
+
+.learn-lyrics-button {
+    background-color: #28a745;
+}
+
+.learn-lyrics-button:hover {
+    background-color: #218838;
+}
+
+.play-lyrics-button {
+    background-color: #0070ba;
+}
+
+.play-lyrics-button:hover {
+    background-color: #005a94;
+}
+
+@media (min-width: 769px) {
+  .lyrics-page-bg
+  {
+   background-color: rgb(255, 245, 234);
+   padding: 10px ;
+ 
+  }
+  .menu-button-lyrics {
+    display: none; /* Don't show the button on PC */
+  }
+}
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .vertical-menu-tags {
+    display: none; /* Hide the menu by default on mobile */
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 1000;
+    padding: 20px;
+    margin-top: 5%;
+    overflow-y: auto;
+  }
+
+  .vertical-menu-tags.active {
+    display: block; /* Show the menu when active */
+  }
+
+  .menu-button-lyrics {
+    display: block; /* Show the menu toggle button */
+    
+    top: 10%;
+    left: 0px;
+    z-index: 1001;
+    background-color: #0070ba;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+}

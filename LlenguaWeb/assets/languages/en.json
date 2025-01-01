@@ -1,0 +1,64 @@
+{
+    "games": "Games",
+    "pronunciation": "Pronunciation",
+    "words": "Words",
+    "donations": "Donations",
+    "game-page-title": "<b>Games for learning Catalan</b>",
+    "games-intro": "",
+    "lyricsPlaceHolder": "Type here...",
+    
+    "game-title-01": "🎵<b>Catalan Songs: Fill in the gabs<b/>🎵",
+    "game-description-01": "Learn Catalan through music! With this game you’ll dive into popular Catalan lyrics and pick up new language skills along the way.",
+    "song-description-01": "<strong>Bon dia</strong> by The Farts(Els Pets)</p>",
+    "song-description-02": "<strong>It Never Snows in the City</strong> by 🧚🏿🧚‍♂️🧚‍♀️",
+    "song-description-03": "<strong>Light, Fire and Destruction</strong> from Dragon Ball Z",
+    
+    "song-description-04": "<strong>Jugular</strong> by Triquell",
+    "song-description-05": "<strong>I love you a lot</strong> by Lax'n'Busto",
+    
+
+
+    "song-description-culturaLosDraps":"<strong>Intro (folk culture)</strong> by The Cloths (Los Draps)",
+    "song-description-BellaAlguer":"<strong>Beautiful city of Alghero</strong> by Rita Cao and Antoni Cao",
+    "song-description-sardanaFredrik":"<strong>Sardana for Berto</strong> by Fredrik",
+    "song-description-lokura":"<strong>&quot;Lokura&quot;</strong> by Julieta</p>",
+    "song-description-Furtadora": "<strong>The Soul Stealer</strong> by Blood Blister(Sangtraït)",
+    "song-description-Bolero": "<strong>The Bolero of Guadassuar</strong> by Choriza May",
+    "song-description-tantComJordi": "<strong>As Long as I have...</strong> by Jordi Barre",
+    "song-description-oestPardal":"<strong>I Am from the West</strong> by Lo Pardal Roquer",
+    "song-description-anemAnemAnant": "<strong>Let's go, let's go going </strong>",
+    "OneMoreTime": "Play again",
+    "ReturnSongSelection": "Return to the song selection",
+    "OtherGames": "More games",
+
+    
+    
+    "wordQuizTitle": "Guess the translation",
+
+    "game-title-02-emoji": "😀 <b>Guess the Emoji</b> 😀",
+    "game-description-02-emoji": " Pick the Catalan word that best matches each emoji and expand your vocabulary. 🌈"
+    
+    ,"OtherGames-description": "More games to come soon...",
+    "play-song-game": "Let's do it! \n Play the song",
+    "playTheLyricsGame": "Play 🎶",
+    "learnTheWords": "Learn the words👩‍🏫",
+    "learn-lyrics-title": "Understand the lyrics👩‍🏫",
+
+
+    "game-title-03-trans":"<b>Translations Quiz🗣️💬🌍</b>"
+    ,
+    "game-description-03-trans": "Pick the correct translation from 4 options and show off your linguistic prowess. Are you up for the challenge?"
+    ,
+    "translate-loc-interj": "Learn how to express emotions and reactions with the right words in Catalan.",
+    "translate-adjectives": "Master the descriptive language! Choose the correct adjective translation. ",
+    "translate-informatica": "Computer terms",
+    "translate-food": "Food vocabulary.",
+    "translate-fruits": "From apples to oranges, test your knowledge of fruits.", 
+    "translate-audio": "All the words in this section contains audio.",
+    "translate-videogames": "Are you a gamer? Do you work in the video game industry? est your knowledge of video game terminology. ",
+    "translate-professions": "What’s your dream job in Catalan? Learn the names of different professions and jobs.",
+    "translate-adverbis": "Learn how to express actions more accurately with adverbs! ",
+    "translate-educacio": "Focus on the world of learning! ",
+    "translate-colloquial": "Learn colloquial expressions and how native speakers communicate informally.",
+    "translate-LGBTI": "Learn important terms related to the LGBTI+ community in Catalan and enhance your inclusive language skills."
+}

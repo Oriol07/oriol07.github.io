@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This helps manage padding/margin consistently */
+}
+
+.header__name {
+    display: flex;
+    align-items: left;
+    float: left;
+    padding:  10px;
+}
+.header__image {
+    flex: 0 0 auto;
+    padding: 0 10px;
+}
+
+.header__logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.header__nav {
+    width: 100vw; 
+    background-color: #333; 
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+    display: block;
+    align-items: center; 
+    padding: 0.55%; 
+    padding-right: 1.55%;
+    
+}
+
+.header__nav-list {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.header__nav-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: cadetblue;
+    margin: 0.2%; 
+    padding: 5px 15px 5px 15px !important;
+    border-radius: 3px;
+}
+
+.header__nav-item a {
+    display: block;
+    width: 100%;
+    height:100%;
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px; 
+    font-weight: 500; 
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+.header__nav-item a:hover {
+    color: #f0a500; 
+}
+
+.header__nav-item a:active {
+    color: black;
+}
+
+.header__menu-toggle {
+   display: none;                  
+    font-size: 24px;
+
+    cursor: pointer; 
+}
+.header__nav--open {
+    display: flex;               /* Show nav when open */
+}
+.language-selector {
+    margin: 0px 0; /* Add spacing above and below the dropdown */
+    display: flex;
+    justify-content: center; /* Center align the dropdown */
+}
+
+.language-selector select {
+    width: 100%; /* Make it span the full width of its container */
+    max-width: 300px; /* Set a reasonable maximum width */
+    padding: 10px; /* Add padding for touch-friendly size */
+    font-size: 1.2em; /* Increase font size for better readability */
+    border-radius: 8px; /* Add rounded corners for better aesthetics */
+    border: 1px solid #ccc; /* Improve visibility with a border */
+    background-color: #f9f9f9; /* Light background for better visibility */
+}
+
+
+@media (max-width: 1px) {
+    .header__menu-toggle {
+        display: block;
+        padding: 5px,0px;
+    }
+    .header__nav {
+        position: fixed;
+      display: flex;   
+        flex-direction: column;      
+        position: absolute;          
+        top: 6.2%;                  
+        left: 0;
+        width: 100%;
+        background-color: #333;
+       
+    }
+
+    .header__nav-list {
+        flex-direction: column; 
+        align-items: left; 
+        width: 100%;
+    }
+
+    .header__nav-item {
+        margin: 10px 0; 
+        justify-content: flex-start; 
+    }
+
+    .header__nav--open {
+        display: flex;               /* Show nav when open */
+    }
+
+    .header__dev-toggle{
+        background: #333;
+        border-radius: 5px;
+        border-radius: 0;
+    }
+
+}

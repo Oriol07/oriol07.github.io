@@ -1,0 +1,45 @@
+
+<div class="lyrics-page">
+  <div id="lyrics-game-container">
+      <!-- <h1>Learn Catalan: Lyrics Fill Game</h1> -->
+
+      <!-- YouTube Video Embed -->
+      <div id="lyrics-video-player"></div>
+
+      <!-- Game Content -->
+      <div id="lyrics-content">
+        <input type="text" id="lyrics-answer-input" placeholder="Type here..." data-key="lyricsPlaceHolder" autocomplete="off" autocorrect="off" autofocus/>
+
+        <p id="lyrics-text">
+          
+        </p>
+
+        
+
+        <p id="lyrics-feedback"></p>
+        <p id="lyrics-hint"></p>
+        <p id="score-display">Punts: 0</p>
+      </div>
+
+      <div id="congratulations-screen">
+        <h2>Molt ben jugat!</h2>
+        <p id="final-score">Punts: 0</p>
+        <a href="bon-dia-song.html" class="game-box-link menu-button">
+          <button class="btn" onclick="restartGame()" data-key="OneMoreTime">Play Again</button>
+        </a>
+        <a  class="game-box-link menu-button">
+          <button class="btn" onclick="learnLyrics()" data-key="learnTheWords">Learn the words</button>
+        </a>
+        <a href="lyrics-game.html" class="game-box-link menu-button">
+          <button class="btn"  data-key="ReturnSongSelection">Return to song selection</button>
+        </a>
+        <a href="games.html" class="game-box-link menu-button">
+          <button class="btn"  data-key="OtherGames">Other Games</button>
+        </a>
+      </div>
+      <div class="menu-button">
+        <button class="btn" onclick="learnLyrics()" data-key="learnTheWords">Learn the words</button>
+      </div>
+
+    </div>
+</div>

@@ -1,0 +1,164 @@
+/* General Page Styling */
+.learn-lyrics-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf3e1;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Page Title */
+.learn-lyrics-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #d47b1f;
+}
+
+/* Word Container */
+#word-container {
+    width: 101vh;
+    min-height: 40vh;
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #e2a45f;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#current-word {
+    font-size: 2em;
+    font-weight: bold;
+    color: #d47b1f;
+}
+
+#emoji-representation {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+#word-translation {
+    font-size: 1.5em;
+    color: #5c8d89;
+    margin: 10px 0;
+}
+
+#word-description {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Navigation Buttons */
+#navigation {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e2a45f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #d47b1f;
+}
+
+/* Mini Game Section */
+#mini-game-container {
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #5c8d89;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#mini-game-container h3 {
+    font-size: 1.8em;
+    color: #5c8d89;
+    margin-bottom: 15px;
+}
+
+#mini-game-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.choice-button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #f3d4b0;
+    color: #333;
+    border: 1px solid #e2a45f;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.choice-button:hover {
+    background-color: #e2a45f;
+    color: white;
+    transform: scale(1.05);
+}
+
+#mini-game-feedback {
+    font-size: 1em;
+    font-weight: bold;
+    color: #5c8d89;
+    margin-top: 15px;
+}
+
+/* Play Song Game Button */
+#play-game-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #5c8d89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#play-game-button:hover {
+    background-color: #3f6c69;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .learn-lyrics-page h1 {
+        font-size: 2em;
+    }
+
+    #word-container,
+    #mini-game-container {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .nav-button {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+
+    #play-game-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}

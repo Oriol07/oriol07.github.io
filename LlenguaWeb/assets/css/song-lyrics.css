@@ -1,0 +1,129 @@
+    /* Main container for the lyrics game */
+    #lyrics-game-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f9f9f9;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+  
+      /* Centering YouTube video */
+      #lyrics-video-player {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+  
+      /* Styles for the lyrics text and blank */
+      #lyrics-text {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        color: #333;
+      }
+  
+      .lyrics-blank {
+        border-bottom: 2px solid #888;
+        width: 80px;
+        display: inline-block;
+        color: #888;
+      }
+  
+      /* Styling feedback, hint, input, and buttons */
+      #lyrics-feedback {
+        font-size: 1em;
+        color: #1bb40a;
+        margin-top: 10px;
+      }
+  
+      #lyrics-hint {
+        font-size: 0.9em;
+        color: #5bc0de;
+        margin-top: 5px;
+      }
+  
+      #lyrics-answer-input {
+        
+        width: 100px;
+        padding: 5px;
+        font-size: 1em;
+      }
+  
+      #lyrics-submit-button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+  
+      #lyrics-submit-button:hover {
+        background-color: #4cae4c;
+      }
+  
+      /* Score display */
+      #score-display {
+        font-size: 1em;
+        color: #5cb85c;
+        margin-top: 15px;
+      }
+
+
+      /* Responsive adjustments for mobile devices */
+@media screen and (max-width: 768px) {
+  #lyrics-game-container {
+      width: 90%; /* Make the container take up most of the screen width */
+      padding: 15px; /* Reduce padding for a compact layout */
+      box-shadow: none; /* Optional: Remove shadow for a cleaner look */
+  }
+
+  #lyrics-video-player {
+      width: 100%; /* Ensure the video resizes */
+      margin-bottom: 15px; /* Slightly reduce spacing */
+  }
+
+  iframe {
+      width: 100%; /* Set video to full width of its container */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  #lyrics-text {
+      font-size: 1em; /* Slightly smaller font size for better fit */
+      line-height: 1.4em; /* Adjust line spacing */
+  }
+
+  .lyrics-blank {
+      width: 60px; /* Reduce width of blanks to fit smaller screens */
+  }
+
+  #lyrics-answer-input {
+   
+    left: 10%;
+    width: 80%;
+    z-index: 1000;
+      font-size: 1em; /* Maintain readability */
+  }
+
+  #congratulations-screen {
+      padding: 10px;
+      text-align: center;
+  }
+
+  .menu-button {
+      display: block;
+      margin: 10px auto; /* Center buttons on mobile */
+  }
+
+  button.btn {
+      width: 100%; /* Make buttons full-width on mobile */
+      font-size: 1em; /* Adjust button font size */
+  }
+}

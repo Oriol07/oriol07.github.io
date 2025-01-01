@@ -1,0 +1,65 @@
+
+{
+    "games": "Jocs",
+    "pronunciation": "Pronunciació",
+    "words": "Paraules",
+    "donations": "Donacions",
+
+    "lyricsPlaceHolder": "Escriu aquí...",
+
+    "game-page-title": "<b>Jocs per aprendre català</b>",
+    "games-intro": "Aquí trobaras una llista de jocs per practicar el cata",
+    "game-title-01": "🎵<b> Lletres en català </b>🎵",
+    "game-description-01": "Descobreix la bellesa de la llengua catalana a través de la música! Bon joc per a millorar la comprenssio oral i descobrir cançons increïbles.",
+    
+    "song-description-01": "Mítica cançó del Rock català",
+    "song-description-02": "<h1>🧚‍♂️🧚🧚🏽‍♂️</h1>",
+    "song-description-03": "Cançó popular de l'ànime Bola de drac Z",
+    "song-description-04": "Soc un moc podrit en un lloc avorrit",
+    "song-description-05": "<h1>💕💕</h1>",
+    "song-description-FumigaJaNoFa":"Jo volia eixir d'eixe laberint. No és per tu, és per mi.",
+    "song-description-culturaLosDraps":"Les llengües minoritzades no moren fan resistència. Folk punk reivindicatiu.",
+    "song-description-BellaAlguer":"En illeta de Sardenya hi ha un país que és un tresor...",
+    "song-description-sardanaFredrik":"Una sardana és una dansa tradicional catalana.",
+    "song-description-lokuraJulieta":"Un relat nostàlgic i emocional sobre un amor perdut.",
+    "song-description-Furtadora": "La persona que furta o roba ànimes sense violència ni indimidació.",
+    "song-description-Bolero": "Visca la tradició i visca la mare que vos va parir!",
+    "song-description-tantComJordi": "Un homenatje a la bellesa del país català rossellonès. ",
+    "song-description-oestPardal":"La terra on es pon el sol...",
+    "song-description-anemAnemAnant":"<h2>🚶🚶🏻‍♀️🚶‍♀️🚶🏿‍♂️</h2>",
+    
+    "wordQuizTitle": "Endevina la traducció",
+    
+    "OneMoreTime": "Torna a provar",
+    "ReturnSongSelection": "Tornar al cançoner",
+    "OtherGames": "Més jocs",
+
+    "game-title-02-emoji": "😀 <b>Endevina l'emoji</b> 😀",
+    "game-description-02-emoji": "Descobreix paraules catalanes encertant quina està més relacionada amb cada emoji. Acceptes el repte? Som-hi! 🎉"
+    , 
+    "play-song-game": "Som-hi! <br> Començar la cançó",
+    "playTheLyricsGame": "Jugar 🎶",
+    "learnTheWords": "Aprendre 👩‍🏫",
+    "learn-lyrics-title": "Entén la lletra👩‍🏫",
+
+
+    "game-title-03-trans":"<b>Tradueix del català a l'anglès🗣️💬🌍</b>",
+    "game-description-03-trans": "Posa a prova els teus coneixements d'anglès! Tria la traducció correcta entre 4 opcions i demostra el teu nivell. Si vols practicar el català, et recomanem canviar l'idioma de la web per gaudir de l'experiència completa."
+    
+    ,
+    "translate-loc-interj": "Learn how to express emotions and reactions with the right words in Catalan.",
+    "translate-adjectives": "Master the descriptive language! Choose the correct adjective translation. ",
+    "translate-informatica": "Computer terms",
+    "translate-food": "Food vocabulary.",
+    "translate-fruits": "From apples to oranges, test your knowledge of fruits.", 
+    "translate-audio": "All the words in this section contains audio.",
+    "translate-videogames": "Are you a gamer? Do you work in the video game industry? est your knowledge of video game terminology. ",
+    "translate-professions": "What’s your dream job in Catalan? Learn the names of different professions and jobs.",
+    "translate-adverbis": "Learn how to express actions more accurately with adverbs! ",
+    "translate-educacio": "Focus on the world of learning! ",
+    "translate-colloquial": "Learn colloquial expressions and how native speakers communicate informally.",
+    "translate-LGBTI": "Learn important terms related to the LGBTI+ community in Catalan and enhance your inclusive language skills."
+
+    
+
+}
