@@ -34,7 +34,17 @@
     "translate-adverbis": "Lär dig hur du uttrycker handlingar mer exakt med adverb!",
     "translate-educacio": "Fokusera på lärandets värld! Testa dina kunskaper om utbildningstermer.",
     "translate-colloquial": "Dyk ner i den rika vardagliga katalanskan! Lär dig vardagliga uttryck och hur inhemska talar informellt.",
-    "translate-LGBTI": "Lär dig viktiga termer relaterade till HBTQI gemenskapen på katalanska och förbättra dina inkluderande språkkunskaper."
+    "translate-LGBTI": "Lär dig viktiga termer relaterade till HBTQI gemenskapen på katalanska och förbättra dina inkluderande språkkunskaper.",
+
+    "game-title-04-dialects": "<b>Dialektfrågesporten🌍</b>"
+    ,
+    "game-description-04-dialects": "Upptäck unika lokala ord och utmana dig själv att gissa deras betydelse! Denna frågesport är helt på katalanska och visar ord som är specifika för en viss region. Den passar bäst för spelare med högre medelnivå eller avancerad nivå."
+    ,
+    "song-filter":"Sångfilter",
+    "all-songs": "Alla låtarna",
+    "next": "nästa",
+    "previous": "föregående "
+
 
 
 }

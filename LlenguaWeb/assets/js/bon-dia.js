@@ -251,5 +251,5 @@ function learnLyrics()
     loadContent("learn-lyrics",songIDName, null);
   }
 
-  console.log(songIDName);
+ // console.log(songIDName);
 }

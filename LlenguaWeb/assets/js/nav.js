@@ -5,7 +5,7 @@ const navLinks = document.querySelectorAll('.header__nav-item a');
 const mainContent = document.getElementById('main-content');
 
 // Function to load content dynamically based on the page clicked in the nav
-function loadNavContent(page) {
+function loadNavContent(page, addToHistory = true) {
     fetch(`assets/content/${page}.html`) // Fetch HTML file based on page name
         .then(response => response.text())
         .then(html => {

@@ -4,6 +4,7 @@ const GameState = Object.freeze({
     EMOJI_GAME: 'emoji-game',
     LEARN_LYRICS: 'learn-lyrics',
     TRANSLATION_QUIZ: 'trans-quiz',
+    DIALECT_QUIZ: 'dialect-quiz',
     GAMES_SELECTION: 'games',
     STOP_GAME: 'stop',
 });
@@ -55,13 +56,25 @@ function loadContent(page, song = null, pages = null, addToHistory = true) {
                 if (pages){
                     if (song)
                     {
-                        console.log("Loading with " + pages + " pages");
                         initializeWordGame(song, pages); 
                     }
                 }
                 else if (song)
                 {
                     initializeWordGame(song); 
+                }
+            }
+            else if(page === 'dialect-quiz')
+            {
+                if (pages){
+                    if (song)
+                    {
+                        initializeWordGame(song, pages, true); 
+                    }
+                }
+                else if (song)
+                {
+                    initializeWordGame(song, null, true); 
                 }
             }
             else if(page === 'wiktionary-tr-game')

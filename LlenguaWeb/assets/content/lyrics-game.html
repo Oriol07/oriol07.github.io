@@ -1,8 +1,8 @@
 <div class="lyrics-page-bg">
 
 <div class="vertical-menu-tags">
-    <h2> Song Filter</h2>
-    <a href="AllSongs" class="active">All the songs</a>
+    <h2 data-key="song-filter"> Song Filter</h2>
+    <a href="AllSongs" data-key="all-songs" class="active">All the songs</a>
     <a href="catala-occidental">Català occidental</a>
     <a href="catala-oriental">Català oriental</a>
     <a href="catala-septentrional">Català septentrional</a>
@@ -36,7 +36,7 @@
 <button class="menu-button-lyrics" onclick="toggleMenuLyrics()">☰ Filter Songs</button>
     <div class="games-container">
       
-        <div class="game-box-link tag-system rock pop catala-oriental catalunya-nord" data-song="bonDia">
+        <div class="song-box tag-system rock pop catala-oriental catalunya-nord" data-song="bonDia">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-01"><strong>Bon dia</strong> dels Pets <br>cantada per Julien (Julio Leone)</h3>
                 <p class="game-description" data-key="song-description-01" ><strong>Bon dia</strong> by Els Pets</p>
@@ -69,7 +69,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system  lgtb-song pop balears catala-oriental mallorca catalunya" data-song="MaiNevaFades">
+        <div class="song-box tag-system  lgtb-song pop balears catala-oriental mallorca catalunya" data-song="MaiNevaFades">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-02"><strong>Mai neva a Ciutat</strong> de Fades</h3>
                 <p class="game-description" data-key="song-description-02" ><strong></strong> by 🧚🏿🧚‍♂️🧚‍♀️</p>
@@ -97,7 +97,7 @@
             </div>
         </div>
         <!-- c -->
-        <div  class="game-box-link tag-system heavy-metal rock catala-oriental catalunya" data-song="llumFocDestruccio">
+        <div  class="song-box tag-system heavy-metal rock catala-oriental catalunya" data-song="llumFocDestruccio">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-03"><strong>Llum, foc, destrucció</strong> de Bola de Drac Z <br> cantada per Lidia Bao</h3>
                 <p class="game-description" data-key="song-description-03" ><strong>Light, Fire and Destruction</strong> from Dragon Ball Z</p>
@@ -129,7 +129,7 @@
             </div>
         </div>
         
-        <div  class="game-box-link tag-system pop catala-oriental catalunya" data-song="jugular">
+        <div  class="song-box tag-system pop catala-oriental catalunya" data-song="jugular">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-04"><strong>Jugular</strong> de Triquell</h3>
                 <p class="game-description" data-key="song-description-04" ><strong>Jugular</strong> by Triquell</p>
@@ -159,7 +159,7 @@
  
         
 
-        <div class="game-box-link tag-system pop  catala-occidental valencia" data-song="jaNoFaMalFumiga">
+        <div class="song-box tag-system pop  catala-occidental valencia" data-song="jaNoFaMalFumiga">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-06"><strong>Ja no fa mal</strong> de la Fúmiga i Samantha</h3>
                 <p class="game-description" data-key="song-description-FumigaJaNoFa" ><strong>It Doesn't Hurt Anymore</strong> by la Fúmiga and Samantha</p>
@@ -184,7 +184,7 @@
             </div>
         </div>
         
-        <div class="game-box-link tag-system pop rock heavy-metal catala-oriental catalunya" data-song="testimoMolt">
+        <div class="song-box tag-system pop rock heavy-metal catala-oriental catalunya" data-song="testimoMolt">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-05"><strong>T'estimo molt</strong> de Lax'n'Busto</h3>
                 <p class="game-description" data-key="song-description-05" ><strong>I love you a lot</strong> by Lax'n'Busto</p>
@@ -208,7 +208,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system rock catala-occidental franja" data-song="culturaLosDraps">
+        <div class="song-box tag-system rock catala-occidental franja" data-song="culturaLosDraps">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-05"><strong>Intro (cultura popular)</strong> de Los Draps</h3>
                 <p class="game-description" data-key="song-description-culturaLosDraps" ><strong>Intro (cultura popular)</strong> by Los Draps</p>
@@ -239,7 +239,7 @@
                 <br>
             </div>
         </div>
-        <div class="game-box-link tag-system pop rock catala-occidental lleida catalunya" data-song="somOest">
+        <div class="song-box tag-system pop rock catala-occidental lleida catalunya" data-song="somOest">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-06"><strong>Soc de l'oest</strong> de Lo Pardal Roquer</h3>
                 <p class="game-description" data-key="song-description-oestPardal" ><strong>Soc de l'oest</strong> by Lo Pardal Roquer</p>
@@ -269,7 +269,7 @@
             </div>
         </div>
         
-        <div class="game-box-link tag-system catala-oriental catalunya-nord catala-septentrional" data-song="tantComMeQuedara">
+        <div class="song-box tag-system catala-oriental catalunya-nord catala-septentrional" data-song="tantComMeQuedara">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-06"><strong>Tant com me quedarà</strong> de Jordi Barre</h3>
                 <p class="game-description" data-key="song-description-tantComJordi" ><strong>As Long as I have...</strong> by Jordi Barre</p>
@@ -297,7 +297,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system algueres folk" data-song="alguerBella">
+        <div class="song-box tag-system algueres folk" data-song="alguerBella">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-06"><strong>Bella Alguer</strong> de Rita Cao i Antoni Cao</h3>
                 <p class="game-description" data-key="song-description-BellaAlguer" ><strong>Beautiful city of Alghero</strong> by Rita Cao and Antoni Cao</p>
@@ -322,7 +322,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system catala-oriental catalunya folk" data-song="sardanaPenBerto">
+        <div class="song-box tag-system catala-oriental catalunya folk" data-song="sardanaPenBerto">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-06"><strong>Sardana p'en Berto</strong> de Fredrik</h3>
                 <p class="game-description" data-key="song-description-sardanaFredrik" ><strong>Sardana for Berto</strong> by Fredrik</p>
@@ -354,7 +354,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system pop catala-oriental catalunya" data-song="lokuraJulieta">
+        <div class="song-box tag-system pop catala-oriental catalunya" data-song="lokuraJulieta">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-04"><strong>&quot;Lokura&quot;</strong> de Julieta</h3>
                 <p class="game-description" data-key="song-description-lokuraJulieta" ><strong>&quot;Lokura&quot;</strong> by Julieta</p>
@@ -383,7 +383,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system pop folk catala-occidental lgtb-song valencia" data-song="elBoleroChoriza">
+        <div class="song-box tag-system pop folk catala-occidental lgtb-song valencia" data-song="elBoleroChoriza">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-06"><strong>El bolero de Guadassuar</strong> de Choriza May</h3>
                 <p class="game-description" data-key="song-description-Bolero" ><strong>The Bolero of Guadassuar</strong> by Choriza May</p>
@@ -411,7 +411,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system algueres folk" data-song="anemAnemAnant">
+        <div class="song-box tag-system algueres folk" data-song="anemAnemAnant">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-06"><strong>Anem, anem anant</strong></h3>
                 <p class="game-description" data-key="song-description-anemAnemAnant" ><strong></strong></p>
@@ -436,7 +436,7 @@
             </div>
         </div>
 
-        <div class="game-box-link tag-system rock heavy-metal catala-oriental catalunya" data-song="furtadoraSangtrait">
+        <div class="song-box tag-system rock heavy-metal catala-oriental catalunya" data-song="furtadoraSangtrait">
             <div class="game-box">
                 <h3 class="game-title" data-key="song-05"><strong>Furtadora d'ànimes</strong> de Sangtraït</h3>
                 <p class="game-description" data-key="song-description-Furtadora" ><strong>I love you a lot</strong> by Lax'n'Busto</p>

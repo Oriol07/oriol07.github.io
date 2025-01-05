@@ -35,7 +35,20 @@
     "translate-adverbis": "Aprende a expresar acciones con mayor precisión usando adverbios.",
     "translate-educacio": "Pon a prueba tus conocimientos sobre términos educativos.",
     "translate-colloquial": "¡Sumérgete en la riqueza del catalán cotidiano! Aprende expresiones coloquiales y cómo se comunican los hablantes nativos de forma informal.",
-    "translate-LGBTI": "Aprende términos importantes relacionados con la comunidad LGBTI+ en catalán y mejora tus habilidades lingüísticas inclusivas."
+    "translate-LGBTI": "Aprende términos importantes relacionados con la comunidad LGBTI+ en catalán y mejora tus habilidades lingüísticas inclusivas.",
+    
+    "ReturnToCategorySelection": "Otra categoría",
+
+
+    "game-title-04-dialects": "<b>Adivina la palabra local🌍</b>"
+    ,
+    "game-description-04-dialects": "¡Descubre palabras locales únicas y desafíate a adivinar su significado! Este quiz está completamente en catalán y muestra palabras específicas de una zona. Es ideal para jugadores con un nivel intermedio-alto o avanzado."
+       ,
+    "song-filter":"Filtro de canciones"
+    ,
+    "all-songs": "Todas las canciones",
+    "next": "siguiente",
+    "previous": "anterior"
 
     
 }

@@ -3165,7 +3165,7 @@ const songs = {
                     it: "Si riferisce alla leggenda della creazione della bandiera catalana, dove Guifré il Pelós, ferito, tracciò le quattro strisce con il suo sangue su uno scudo d'oro.",
                     fr: "Fait référence à la légende de la création du drapeau catalan, où Guifré le Velu, blessé, traça les quatre bandes avec son sang sur un bouclier doré."
                 },
-                emoji: "🟡🩸🟡🩸🟡🩸🟡🩸🟡"
+                emoji: "🟡🩸"
             },
             {
                 word: "s'han emprat",
@@ -3391,7 +3391,7 @@ const songs = {
   
           { text: "Un bell ____, especialment lo bell sol dóna calor, més la mar no fa remor, tot calm i sense vent.", answer: "estiu", startTime: 72, endTime: 87 },
           { text: "Les nitades estrellades, totes ____ d'estrelletes. Qui passeja la costera, canta tu la serenada.", answer: "plenes", startTime: 87, endTime: 104 },
-          { text: "Oh, bella gruta, de cada casa, que tots de lluny venen per ____, i costejant la tua costera, d'un Alguer bella.", answer: "veure", startTime: 119, endTime: 132 },
+          { text: "Oh, bella gruta, de Cap de (la) Caça, que tots de lluny venen per ____, i costejant la tua costera, d'un Alguer bella.", answer: "veure", startTime: 119, endTime: 132 },
           { text: "Oh Alguer ____, d'una Alguer __, oh Alguer __.", answer: "bella", startTime: 132, endTime: 143 },
 
          
@@ -3521,7 +3521,7 @@ const songs = {
                     sv: "din kust"
                 },
                 description: {
-                    ca: "Fa referència a la costa d'algú.",
+                    ca: "Fa referència a la costa d'algú o un lloc.",
                     en: "Refers to someone's coast.",
                     es: "Se refiere a la costa de alguien.",
                     it: "Si riferisce alla costa di qualcuno.",
@@ -3831,7 +3831,7 @@ const songs = {
                     fr: "Quelque chose de très précieux, physique ou symbolique, qui est gardé avec soin.",
                     sv: "Något mycket värdefullt, fysiskt eller symboliskt, som bevaras med omsorg."
                 },
-                emoji: "🪙"
+                emoji: "💰🎁👑"
             },
             {
                 word: "la llengua",

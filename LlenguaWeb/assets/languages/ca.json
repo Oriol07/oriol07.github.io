@@ -44,7 +44,7 @@
 
 
     "game-title-03-trans":"<b>Tradueix del català a l'anglès🗣️💬🌍</b>",
-    "game-description-03-trans": "Posa a prova els teus coneixements d'anglès! Tria la traducció correcta entre 4 opcions i demostra el teu nivell. Si vols practicar el català, et recomanem canviar l'idioma de la web per gaudir de l'experiència completa."
+    "game-description-03-trans": "Posa a prova els teus coneixements d'anglès! Tria la traducció correcta entre 4 opcions i demostra el teu nivell. Si vols practicar el català utilitzant un altre idioma, et recomanem canviar l'idioma de la web per gaudir de l'experiència completa."
     
     ,
     "translate-loc-interj": "Learn how to express emotions and reactions with the right words in Catalan.",
@@ -59,6 +59,19 @@
     "translate-educacio": "Focus on the world of learning! ",
     "translate-colloquial": "Learn colloquial expressions and how native speakers communicate informally.",
     "translate-LGBTI": "Learn important terms related to the LGBTI+ community in Catalan and enhance your inclusive language skills."
+    ,
+    "ReturnToCategorySelection": "Fer una altra categoria",
+
+
+    "game-title-04-dialects": "<b>Endevina la paraula local 🌍</b>"
+    ,
+    "game-description-04-dialects": " Descobreix paraules locals i intenta endevinar què signifiquen! Aquest joc és exclusivament en català, així que es recomana tenir un nivell avançat o intermedi-alt abans de començar."
+    ,
+    "song-filter":"Filtre de cançons",
+    "all-songs": "Totes les cançons",
+    "next": "següent",
+    "previous": "anterior"
+
 
     
 

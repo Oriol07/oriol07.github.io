@@ -55,10 +55,22 @@
     "translate-food": "Food vocabulary.",
     "translate-fruits": "From apples to oranges, test your knowledge of fruits.", 
     "translate-audio": "All the words in this section contains audio.",
-    "translate-videogames": "Are you a gamer? Do you work in the video game industry? est your knowledge of video game terminology. ",
+    "translate-videogames": "Are you a gamer? Do you work in the video game industry? Improve your knowledge of video game terminology. ",
     "translate-professions": "What’s your dream job in Catalan? Learn the names of different professions and jobs.",
     "translate-adverbis": "Learn how to express actions more accurately with adverbs! ",
     "translate-educacio": "Focus on the world of learning! ",
     "translate-colloquial": "Learn colloquial expressions and how native speakers communicate informally.",
-    "translate-LGBTI": "Learn important terms related to the LGBTI+ community in Catalan and enhance your inclusive language skills."
+    "translate-LGBTI": "Learn important terms related to the LGBTI+ community in Catalan and enhance your inclusive language skills.",
+    "ReturnToCategorySelection": "Return to category selection",
+
+
+    "game-title-04-dialects": "<b>The Dialect Quiz🌍</b>"
+    ,
+    "game-description-04-dialects": "Discover unique local words and challenge yourself to guess their meanings! This quiz is entirely in Catalan and features words specific to a particular region or city, making it best suited for players with a higher-intermediate or advanced proficiency level."
+       ,
+    "song-filter":"Song filter",
+    "all-songs": "All the songs",
+    "next": "next",
+    "previous": "previous"
+
 }
