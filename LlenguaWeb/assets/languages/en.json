@@ -17,7 +17,8 @@
     "song-description-05": "<strong>I love you a lot</strong> by Lax'n'Busto",
     
 
-
+    "song-description-LaMirada":"<strong>The Inner Look</strong> by Marian van de Wal",
+    "song-description-NoPucParar":"<strong>I Can't Stop</strong> by 4 Cups",
     "song-description-culturaLosDraps":"<strong>Intro (folk culture)</strong> by The Cloths (Los Draps)",
     "song-description-BellaAlguer":"<strong>Beautiful city of Alghero</strong> by Rita Cao and Antoni Cao",
     "song-description-sardanaFredrik":"<strong>Sardana for Berto</strong> by Fredrik",
@@ -68,6 +69,7 @@
     ,
     "game-description-04-dialects": "Discover unique local words and challenge yourself to guess their meanings! This quiz is entirely in Catalan and features words specific to a particular region or city, making it best suited for players with a higher-intermediate or advanced proficiency level."
        ,
+    "dialectQuizTitle":"Match the word with the correct description",
     "song-filter":"Song filter",
     "all-songs": "All the songs",
     "next": "next",

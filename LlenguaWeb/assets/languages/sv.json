@@ -20,6 +20,9 @@
     "learn-lyrics-title": "Förstå texten👩‍🏫",
 
     
+    "playTheLyricsGame": "Spela 🎶",
+    "learnTheWords": "Förstå texten👩‍🏫",
+    
     "game-title-03-trans":"<b>Översättningsfrågesport🗣️💬🌍</b>",
     "game-description-03-trans": "Utmana dig själv i detta roliga språktest! Välj rätt översättning till katalanska bland fyra alternativ och visa vad du går för. Är du redo att anta utmaningen?"
     ,
@@ -40,6 +43,7 @@
     ,
     "game-description-04-dialects": "Upptäck unika lokala ord och utmana dig själv att gissa deras betydelse! Denna frågesport är helt på katalanska och visar ord som är specifika för en viss region. Den passar bäst för spelare med högre medelnivå eller avancerad nivå."
     ,
+    "dialectQuizTitle":"Matcha ordet med rätt beskrivning",
     "song-filter":"Sångfilter",
     "all-songs": "Alla låtarna",
     "next": "nästa",

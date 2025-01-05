@@ -128,7 +128,7 @@
 #play-game-button {
     padding: 15px 30px;
     font-size: 1.2em;
-    background-color: #5c8d89;
+    background-color: #358e87;
     color: white;
     border: none;
     border-radius: 5px;
@@ -137,7 +137,21 @@
 }
 
 #play-game-button:hover {
-    background-color: #3f6c69;
+    background-color: #2d7873;
+}
+#return-game-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #358e87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#return-game-button:hover {
+    background-color: #2d7873;
 }
 
 /* Responsive Design */
@@ -158,6 +172,10 @@
     }
 
     #play-game-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+    #return-game-button {
         font-size: 1em;
         padding: 10px 20px;
     }

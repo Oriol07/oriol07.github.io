@@ -20,6 +20,10 @@
     "game-description-02-emoji": "Aprende a relecionar los emojis con palabras catalanas. ¡Diviértete mientras expandes tu vocabulario! ¿Aceptas el desafío? ¡Juguemos! 🎮",
     "learn-lyrics-title": "Entiende la letra👩‍🏫",
 
+    
+    "playTheLyricsGame": "Jugar 🎶",
+    "learnTheWords": "Entender la letra👩‍🏫",
+
     "game-title-03-trans":"<b>Traduciones Quiz🗣️💬🌍</b>"
     ,
     "game-description-03-trans": "¡Pon a prueba tus conocimientos de catalán en este divertido desafío! Elige la traducción correcta entre 4 opciones y demuestra tu habilidad con los idiomas. ¿Aceptas el reto?"
@@ -42,8 +46,11 @@
 
     "game-title-04-dialects": "<b>Adivina la palabra local🌍</b>"
     ,
-    "game-description-04-dialects": "¡Descubre palabras locales únicas y desafíate a adivinar su significado! Este quiz está completamente en catalán y muestra palabras específicas de una zona. Es ideal para jugadores con un nivel intermedio-alto o avanzado."
+    "game-description-04-dialects": "¡Descubre palabras locales únicas y desafíate a adivinar su significado! Este quiz está completamente en catalán y muestra palabras específicas de una zona. Es ideal para jugadores con un nivel de catalán intermedio-alto o avanzado."
        ,
+       
+    "dialectQuizTitle":"Relaciona la palabra con la descripción correcta",
+
     "song-filter":"Filtro de canciones"
     ,
     "all-songs": "Todas las canciones",

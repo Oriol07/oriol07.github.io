@@ -6177,21 +6177,41 @@ const songs = {
             
         ]
       },
-      "totLildami": {
-        videoId: "QC3EhXqIhvs",
+      "NoPucParar": {
+        videoId: "3CtOWGnRH7A",
         phrases: [
-          { text: "Anem, anem anant al camí de Vallverd, ____ les de Morando acollint junivert;", answer: "trobem", startTime: 14, endTime: 22 },
-          { text: "en mig del junivert hi havia un ____, fugi senyora Càrmina i n'hi fugi lo pardal.", answer: "animal", startTime: 22, endTime: 30 },
-          { text: "Lo pardal se n'és fugit i la ____ se l'ha menjat. La duenya me n'ha catxat que he tallat l'orinal.", answer: "gata", startTime: 30, endTime: 38 },
-          { text: "Iel·lo, iel·lo, iel·lo ____ ja és així! Iel·lo, iel·lo, iel·lo __ ja és així!", answer: "que", startTime: 38, endTime: 46 },
-          { text: "Anem, anem ____ al camí de la Puceta, trobem les de Morando acollint carabasseta;", answer: "anant", startTime: 55, endTime: 64 },
-          { text: "en mig del junivert hi havia un ____, fugi senyora Càrmina i n'hi fugi lo pardal.", answer: "animal", startTime: 63, endTime: 71 },
-          { text: "Lo pardal se n'és fugit i la ____ se l'ha menjat. La duenya me n'ha catxat que he tallat l'orinal.", answer: "gata", startTime: 71, endTime: 79},
-          { text: "Iel·lo, iel·lo, iel·lo que ____ és així! Iel·lo, iel·lo, iel·lo que __ és així!", answer: "ja", startTime: 79, endTime: 87 },
-          { text: "Anem, anem anant al camí de Vilanova trobem ____ de Morando acollint oliva nova;", answer: "les", startTime: 110, endTime: 118 },
-          { text: "en mig del junivert hi ____ un animal, fugi senyora Càrmina i n'hi fugi lo pardal.", answer: "havia", startTime: 118, endTime: 125 },
-          { text: "Lo pardal se n'és fugit i la gata se l'ha ____. La duenya me n'ha catxat que he tallat l'orinal.", answer: "menjat", startTime: 125, endTime: 133 },
-          { text: "Iel·lo, iel·lo, iel·lo que ____ és així! Iel·lo, iel·lo, iel·lo que __ és així!", answer: "ja", startTime: 155, endTime: 165 },
+          { text: "Sent el ____ que no para que no acaba mai", answer: "ritme", startTime: 8, endTime: 15 },
+          { text: "Com et ____ per les cames fins arribar al cap. No puc parar", answer: "puja", startTime: 15, endTime: 19 },
+          { text: "No puc parar. ____, balla, crida i canta, sent el moviment", answer: "salta", startTime: 20, endTime: 29 },
+          { text: "Que t'abraça i t'____, que et crema sa pell", answer: "enganxa", startTime: 29, endTime: 34 },
+          { text: "Es ____ no em deixen estar quiet. Això és tot el que sé. ", answer: "peus", startTime: 33, endTime: 39 },
+          { text: "No puc ____. (x5)", answer: "parar", startTime: 50, endTime: 55 },
+          { text: "Sent el ritme que s'____, que ompli els racons. I sa música tan forta que et colpeja al cos. No puc parar. No puc parar", answer: "escapa", startTime: 55, endTime: 69},
+          { text: "Avui ses ____ em cremen es peus. Ses llums m'enlluernen molt més que altres dies.", answer: "sabates", startTime: 70, endTime: 78 },
+          { text: "No sé ____ bé per què, però la corrent va cresquent.", answer: "ben", startTime: 78, endTime: 87 },
+          { text: "No ____ parar. x5", answer: "puc", startTime: 90, endTime: 98 },
+          { text: "Ses senyals em ____ que tot anirà bé. La nit és jove encara i avui no sé què em passa.", answer: "diuen", startTime: 115, endTime: 122 },
+          { text: "No tenc pressa per ____, no tenc ganes de marxar. Avui esperaré que el sol em vengui a buscar.", answer: "partir", startTime: 122, endTime: 132},
+          { text: "____ puc, 🙅‍♀️ puc parar!... ", answer: "no", startTime: 157, endTime: 178},
+         
+        ]
+      },
+      "LaMiradaInterior": {
+        videoId: "-RJS79sbMLc",
+        phrases: [
+          { text: "Si el que vols és ____ la bellesa de la vida. Ves i busca dins el teu cor, abans de girar-te cap al món.", answer: "trobar", startTime: 24, endTime: 34 },
+          { text: "Si el que vols és trobar el ____ de la vida. Ves i busca dins el teu cor, a través de la mirada interior.", answer: "misteri", startTime: 34, endTime: 47 },
+          { text: "Hi ha molt més del que ____ veure. Ves i explora dins del teu univers interior.", answer: "pots", startTime: 54, endTime: 64 },
+          { text: "Allà veuràs que hi ha una força ____ és el que fa que tot sigui allà on està.", answer: "que", startTime: 64, endTime: 76 },
+          { text: "Irradia ____, irradia llum, irradia harmonia, sigues tu.", answer: "pau", startTime:76, endTime: 87 },
+          { text: "Si el que ____ és trobar la bellesa de la vida. Ves i busca dins el teu cor, abans de girar-te cap al món.", answer: "vols", startTime: 87, endTime: 97 },
+          { text: "Si el que vols és trobar el misteri de la ____. Ves i busca dins el teu cor, a través de la mirada interior.", answer: "vida", startTime: 97, endTime: 109},
+          { text: "Obre de bat a bat les ____ del tresor que s'amaga a dintre del teu cor. No dubtis!", answer: "portes", startTime: 108, endTime: 118 },
+          { text: "Banya't en la quietud de l'____ clara, on trobaràs l'essència d'aquell que vols ser tu.", answer: "aigua", startTime: 118, endTime: 133 },
+          { text: "____ l'interior!", answer: "mira", startTime: 147, endTime: 154 },
+          { text: "Si el que vols és trobar la ____ de la vida. Ves i busca dins el teu cor, abans de girar-te cap al món.", answer: "bellesa", startTime: 154, endTime: 164 },
+          { text: "Si el que vols és trobar el misteri de la vida. ____ i busca dins el teu cor, a través de la mirada interior.", answer: "ves", startTime: 163, endTime: 175 },
+          { text: "Obre el teu ____ al món, veuràs que tot ho pot la mirada interior.", answer: "cor", startTime: 174, endTime: 185 },
          
         ]
       },

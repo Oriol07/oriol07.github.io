@@ -401,7 +401,7 @@ async function initializeWordGame(category, pages = null, isDialect = false) {
     categoryPages = pages; 
 
      // Setup play again button correctly
-    setupPlayAgainButton(category, pages);
+    setupPlayAgainButton(category, pages, isDialect);
 
 
     scoreTr = 0;
@@ -504,7 +504,7 @@ async function initializeWordGame(category, pages = null, isDialect = false) {
     }
     
 }
-function setupPlayAgainButton(category, pages) {
+function setupPlayAgainButton(category, pages, isDialect = false) {
     const playAgainButton = document.getElementById("play-again-button");
 
     // Remove any existing listener
@@ -512,7 +512,7 @@ function setupPlayAgainButton(category, pages) {
     playAgainButton.parentNode.replaceChild(newPlayAgainButton, playAgainButton);
 
     newPlayAgainButton.addEventListener("click", () => {
-        initializeWordGame(category, pages);
+        initializeWordGame(category, pages, isDialect);
     });
 }
 

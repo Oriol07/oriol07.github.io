@@ -7,7 +7,7 @@
 
     "lyricsPlaceHolder": "Escriu aquí...",
 
-    "game-page-title": "<b>Jocs per aprendre català</b>",
+    "game-page-title": "<b>Activitats per aprendre català</b>",
     "games-intro": "Aquí trobaras una llista de jocs per practicar el cata",
     "game-title-01": "🎵<b> Lletres en català </b>🎵",
     "game-description-01": "Descobreix la bellesa de la llengua catalana a través de la música! Bon joc per a millorar la comprenssio oral i descobrir cançons increïbles.",
@@ -27,7 +27,9 @@
     "song-description-tantComJordi": "Un homenatje a la bellesa del país català rossellonès. ",
     "song-description-oestPardal":"La terra on es pon el sol...",
     "song-description-anemAnemAnant":"<h2>🚶🚶🏻‍♀️🚶‍♀️🚶🏿‍♂️</h2>",
-    
+    "song-description-NoPucParar":"<h2>🏆🏆🏆🏆 </h2>",
+    "song-description-LaMirada":"<h2>👀</h2>",
+
     "wordQuizTitle": "Endevina la traducció",
     
     "OneMoreTime": "Torna a provar",
@@ -63,14 +65,17 @@
     "ReturnToCategorySelection": "Fer una altra categoria",
 
 
-    "game-title-04-dialects": "<b>Endevina la paraula local 🌍</b>"
+    "game-title-04-dialects": "<b>Endevina els significats de paraules locals 🌍</b>"
     ,
     "game-description-04-dialects": " Descobreix paraules locals i intenta endevinar què signifiquen! Aquest joc és exclusivament en català, així que es recomana tenir un nivell avançat o intermedi-alt abans de començar."
     ,
+    "dialectQuizTitle":"Relaciona la paraula amb la descripció correcta",
     "song-filter":"Filtre de cançons",
     "all-songs": "Totes les cançons",
     "next": "següent",
     "previous": "anterior"
+
+
 
 
     

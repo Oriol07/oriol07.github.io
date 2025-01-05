@@ -44,7 +44,6 @@ function loadContent(page, song = null, pages = null, addToHistory = true) {
             }
             else if (page === 'learn-lyrics')
             {
-
                 if(song)
                 {
                     initializeLearnWords(song);
