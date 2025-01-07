@@ -1,13 +1,11 @@
 /* games.css */
 
 
-
 /* Title Section */
 .games-title {
     text-align: center;
     font-size: 2em;
     color: #333;
-    margin-top: 20px;
 }
 
 .games-intro {
@@ -19,7 +17,7 @@
 
 /* Main Container */
 .games-page {
-    background-color: lightskyblue;
+    background-color: LightBlue;
     padding: 20px;
     display: flex;
     flex-direction: column;

@@ -414,22 +414,22 @@ async function initializeWordGame(category, pages = null, isDialect = false) {
     switch(savedLanguage)
     {
         case 'es':
-            document.getElementById("word-display").innerText = "Ten paciencia, puede tardar unos segundos en cargar...";
+            document.getElementById("word-display").innerText = "Ten paciencia, puede tardar unos segundos en empezar...";
             break;
         case 'en':
-            document.getElementById("word-display").innerText = "Wait, we it can take some seconds to download...";
+            document.getElementById("word-display").innerText = "Wait, it can take some seconds to start...";
             break;
         case 'sv':
-            document.getElementById("word-display").innerText = "Vänta. vi letar efter översättningar...";
+            document.getElementById("word-display").innerText = "Vänta. Det kan ta lite tid att börja...";
             break;
         case 'ca':
-            document.getElementById("word-display").innerText = "S'estan cercant traduccions...";
+            document.getElementById("word-display").innerText = "Espera, pot tardar uns segons a començar...";
             break
         case 'it':
-            document.getElementById("word-display").innerText = "Si prega di attendere, ricerca di nuove traduzioni";
+            document.getElementById("word-display").innerText = "Si prega di attendere, potresti volerci alcuni secondi per iniziare...";
             break;
         case 'fr':
-            document.getElementById("word-display").innerText = "Attendez. Ça peut prendre un certain temps...";
+            document.getElementById("word-display").innerText = "Attendez. Ça peut prendre un certain temps pour démarrer...";
             break;
         default:
             document.getElementById("word-display").innerText = "Loading words...";
@@ -557,7 +557,7 @@ async function getRandomWordsDialect(count, pages) {
 
         while (attempts < maxAttempts && currentGameState === GameState.DIALECT_QUIZ) {
             try {
-                //console.log(`Fetching word ${i + 1} (attempt ${attempts + 1})`);
+               // console.log(`Fetching ${word} ${i + 1} (attempt ${attempts + 1})`);
                 word = await fetchRandomWordWithPages(currentCategory, pages);
                 const { descriptions: fetchedDescriptions, ipaPronunciation } = await getWordDetails(word);
                 
@@ -586,12 +586,20 @@ async function getRandomWordsDialect(count, pages) {
 async function getWordDetails(word) {
     if (currentGameState !== GameState.DIALECT_QUIZ) return { descriptions: [], ipaPronunciation: null };
 
+    dialect = currentCategory;
+    if (dialect.includes("_"))
+    {
+            parts = dialect.split("_");
+            dialect = parts[parts.length - 1].toLowerCase();
+    
+    }
+
     try {
         const response = await fetch(`https://ca.wiktionary.org/w/api.php?action=parse&format=json&page=${encodeURIComponent(word)}&origin=*`);
         const data = await response.json();
 
         if (!data.parse || !data.parse.text) {
-            console.error('No parse data available.');
+            console.error("No parse data available.");
             return { descriptions: [], ipaPronunciation: null };
         }
 
@@ -599,25 +607,53 @@ async function getWordDetails(word) {
         const parser = new DOMParser();
         const doc = parser.parseFromString(data.parse.text["*"], "text/html");
 
-        // Fetch descriptions based on the current category
+        // Extract Descriptions
         const descriptions = [];
         const listItems = doc.querySelectorAll("ol li");
         listItems.forEach(item => {
             const textContent = item.textContent.toLowerCase();
-            if (textContent.includes(currentCategory.toLowerCase())) {
+            if (textContent.includes(dialect.toLowerCase())) {
                 descriptions.push(item.textContent.trim());
             }
         });
+        if (descriptions == null)
+        {
+            return { descriptions: [], ipaPronunciation: null };
+        }
 
-        // Fetch IPA pronunciation for the current category
+        if (dialect == "Andorrà" || dialect == "Tortosí")
+        {
+                dialect = "nord-occidental"
+        }
+        else if (dialect == "Mallorquí")
+        {
+            dialect = "Balear"
+        }
+        // Extract IPA Pronunciation
         let ipaPronunciation = null;
-        const ipaElements = doc.querySelectorAll(".IPA");
-        ipaElements.forEach(ipaElement => {
-            const parentText = ipaElement.closest("li")?.textContent.toLowerCase() || "";
-            if (parentText.includes(currentCategory.toLowerCase())) {
-                ipaPronunciation = ipaElement.textContent.trim();
+
+        // Handle table structures (e.g., <tbody>, <tr>, etc.)
+        const ipaRows = doc.querySelectorAll("tbody, tr, li");
+        ipaRows.forEach(row => {
+            const rowText = row.textContent.toLowerCase();
+            if (rowText.includes(dialect.toLowerCase())) {
+                const ipaElement = row.querySelector(".IPA");
+                if (ipaElement) {
+                    ipaPronunciation = ipaElement.textContent.trim();
+                }
             }
         });
+
+        // Fallback to simpler structures if no IPA found in complex structures
+        if (!ipaPronunciation) {
+            const ipaElements = doc.querySelectorAll(".IPA");
+            ipaElements.forEach(ipaElement => {
+                const parentText = ipaElement.closest("li, tr, tbody")?.textContent.toLowerCase() || "";
+                if (parentText.includes(dialect.toLowerCase())) {
+                    ipaPronunciation = ipaElement.textContent.trim();
+                }
+            });
+        }
 
         return { descriptions, ipaPronunciation };
     } catch (error) {
@@ -625,6 +661,7 @@ async function getWordDetails(word) {
         return { descriptions: [], ipaPronunciation: null };
     }
 }
+
 
 
 
@@ -826,14 +863,15 @@ function checkAnswerDialect(selectedAnswer, correctAnswer) {
     
     if (selectedAnswer === correctAnswer) {
         scoreTr++;
-        document.getElementById("word-feedback").innerText = `✔️ Correcte!  ${correctAnswer}`;
+        document.getElementById("word-feedback").innerHTML = `<b>✔️ Correcte! <br>${wordObj.word}</b>: ${correctAnswer}`;
         updateGameLogTr(wordObj.word, selectedAnswer, correctAnswer, true);
     } else {
-        document.getElementById("word-feedback").innerText = `❌ Incorrecte!  ${correctAnswer}`;
+        document.getElementById("word-feedback").innerHTML =`<b>❌ Incorrecte! <br>${wordObj.word}</b>: ${correctAnswer}`;
         updateGameLogTr(wordObj.word, selectedAnswer, correctAnswer, false);
     }
 
-    setTimeout(nextQuestionDialect, 2000);
+    nextQuestionDialect();
+    //setTimeout(nextQuestionDialect, 2000);
 }
 
 // Check if the selected answer is correct
@@ -842,10 +880,10 @@ function checkAnswer(selectedAnswer, correctAnswer) {
     
     if (selectedAnswer === correctAnswer) {
         scoreTr++;
-        document.getElementById("word-feedback").innerText = `✔️ Correcte!  ${correctAnswer}`;
+        document.getElementById("word-feedback").innerHTML = `<b>✔️ Correcte! <br>${wordObj.catalan} </b>: ${correctAnswer}`;
         updateGameLogTr(wordObj.catalan, selectedAnswer, correctAnswer, true);
     } else {
-        document.getElementById("word-feedback").innerText = `❌ Incorrecte!  ${correctAnswer}`;
+        document.getElementById("word-feedback").innerHTML = `<b>❌ Incorrecte!<br>${wordObj.catalan}</b>: ${correctAnswer}`;
         updateGameLogTr(wordObj.catalan, selectedAnswer, correctAnswer, false);
     }
 
